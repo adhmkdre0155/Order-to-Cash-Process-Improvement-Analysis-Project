@@ -39,7 +39,7 @@ Excel (openpyxl, formula-driven) · SQL (SQLite) · Python (matplotlib) for the 
 1. **Calculated DSO and stage cycle-times** in both Excel (formula-driven, SUMIFS/AVERAGEIFS) and SQL — order-to-invoice and invoice-to-payment, split by customer segment.
 2. **Segmented by customer type** to isolate which segment drives the longest delays — Government stood out immediately, both in cycle time and in the value of outstanding receivables.
 3. **Mapped the current process** as a swimlane diagram, and identified the highest-friction handoff: a manual approval step exclusive to government contracts, adding 10.4 days *before the invoice is even issued* — separate from and in addition to government's inherently slower payment cycle.
-4. **Proposed a redesigned process** (`process_future_state.png`) with an automated validation point replacing the manual approval step, and modeled the cash-flow impact of the resulting DSO reduction.
+4. **Proposed a redesigned process** [Future state process map](/diagrams/process_future_state.png) with an automated validation point replacing the manual approval step, and modeled the cash-flow impact of the resulting DSO reduction.
 
 ## Key insight
 Government segment DSO (66.8 days) is more than double SME's (26.6 days) — but the gap doesn't start with government's payment behavior, which the company can't control. It starts with a 12.6-day order-to-invoice delay (vs. 2.2 days for SME) caused by an internal manual approval step — something the company fully controls. €6.84M currently sits in outstanding Government receivables, over 90% of all outstanding AR company-wide, despite Government being only 15% of order volume.
