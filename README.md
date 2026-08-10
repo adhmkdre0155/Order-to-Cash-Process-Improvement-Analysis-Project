@@ -1,7 +1,7 @@
 # Order-to-Cash Process Improvement Analysis
 
 **Business Analyst portfolio project — Adham AlHers**
-[Live interactive dashboard](./dashboard/index.html) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/) · [Portfolio home](#)
+[Live interactive dashboard](/dashboard/index.html) · [LinkedIn](https://www.linkedin.com/in/adhamalhers/) · [Portfolio home](#)
 
 ## Problem statement
 A B2B company's Order-to-Cash cycle (order → invoice → payment) is too slow, hurting cash flow — and leadership wants to know where the delay actually comes from before proposing a fix.
